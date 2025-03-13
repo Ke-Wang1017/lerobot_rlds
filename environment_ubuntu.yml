@@ -15,7 +15,7 @@ dependencies:
   - ncurses=6.4=hcb278e6_0
   - openssl=1.1.1u=hd590300_0
   - pip=23.2.1=pyhd8ed1ab_0
-  - python=3.9.0=hffdb5ce_5_cpython
+  # - python=3.9.0=hffdb5ce_5_cpython
   - readline=8.2=h8228510_1
   - setuptools=68.0.0=pyhd8ed1ab_0
   - sqlite=3.42.0=h2c6b66d_0
@@ -25,6 +25,7 @@ dependencies:
   - xz=5.2.6=h166bdaf_0
   - zlib=1.2.13=hd590300_5
   - pip:
+      # - python==3.10
       - absl-py==1.4.0
       - anyio==3.7.1
       - apache-beam==2.49.0
